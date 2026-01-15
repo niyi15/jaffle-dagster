@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AdventureWorks2016  
+    schema: Sales                  
+    description: "source tables for AdventureWorks2016"
+
+    tables:
+      - name: Customer
+        description: "Customer table"
+
+      - name: SalesOrderHeader
+        description: "SalesOrderHeader table"
