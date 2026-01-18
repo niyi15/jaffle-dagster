@@ -2,9 +2,9 @@ version: 2
 
 sources:
   - name: raw
-    database: AdventureWorks2016  
+    database: HX360  
     schema: Sales                  
-    description: "source tables for AdventureWorks2016"
+    description: "source tables for HX360 in Azure"
 
     tables:
       - name: Customer
